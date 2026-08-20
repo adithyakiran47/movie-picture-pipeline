@@ -1,0 +1,6 @@
+
+# Terraform local state/cache - never commit these
+setup/terraform/.terraform/
+setup/terraform/*.tfstate
+setup/terraform/*.tfstate.*
+setup/terraform/crash.log
